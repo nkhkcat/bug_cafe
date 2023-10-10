@@ -20,7 +20,7 @@ def take_order(menus)
   end
   print '>'
   menus_index = gets.to_i - 1
-  puts "#{menus[menus_index][:name]}(#{menus[menus_index][:price].to_s}円)ですね。"
+  puts "#{menus[menus_index][:name]}(#{menus[menus_index][:price]}円)ですね。"
   menus_index
 end
 
